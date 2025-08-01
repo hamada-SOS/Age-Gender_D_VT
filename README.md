@@ -4,11 +4,9 @@ D-VT Age & Gender Detection App
 A Python Flask API for performing real-time or image-based age and gender detection using the D-VT model.
 Authors
 
-    Mohamed Abdinur
-
-    Adam
-
     Bilal Alibashi Mohamed
+    Mohamed Abdinur adam
+    
 
 Introduction
 
@@ -69,18 +67,7 @@ Follow these steps to get a copy of the project up and running on your local mac
 
     python demo.py
 
-    Your Flask API will start running on http://127.0.0.1:5000 by default.
 
-Usage
-
-Once the API is running, you can interact with it using tools like curl or a client-side application.
-Example API Request (Image)
-
-To test the image prediction endpoint, you can send a POST request with an image file:
-
-curl -X POST -F "file=@/path/to/your/image.jpg" http://127.0.0.1:5000/predict
-
-The API will return a JSON response with the detection results.
 Contributing
 
 We welcome contributions! Please feel free to open issues or submit pull requests.
