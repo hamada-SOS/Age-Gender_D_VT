@@ -10,7 +10,7 @@ Authors
 
 Introduction
 
-This project is a Python Flask API that acts as a backend for age and gender detection. It is designed to receive images or video data, process them using the D-VT model, and return the predicted age, gender, and the bounding box of any detected faces.
+This project is a Python Flask API that acts as a backend fo age and gender detection. It is designed to receive images or video data, process them using the D-VT model, and return the predicted age, gender, and the bounding box of any detected faces.
 Features
 
     API Endpoints: Provides a RESTful API to handle image and video data.
