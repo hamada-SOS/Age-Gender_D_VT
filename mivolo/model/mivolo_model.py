@@ -1,7 +1,4 @@
 """
-Code adapted from timm https://github.com/huggingface/pytorch-image-models
-
-Modifications and additions for mivolo by / Copyright 2023, Irina Tolstykh, Maxim Kuprashevich
 """
 
 import torch
