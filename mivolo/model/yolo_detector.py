@@ -14,10 +14,6 @@ _logger = logging.getLogger(__name__)
 # because of ultralytics bug it is important to unset CUBLAS_WORKSPACE_CONFIG after the module importing
 os.unsetenv("CUBLAS_WORKSPACE_CONFIG")
 
-# Removed the dynamic discovery block for DEFAULT_ULTRALYTICS_TRACKER_PATH
-# This value will now effectively be None unless explicitly set elsewhere,
-# but it's okay because Predictor will always pass the correct path.
-
 class Detector:
     def __init__(
         self,
